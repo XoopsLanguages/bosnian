@@ -1,0 +1,43 @@
+{
+  "language": "bosnian",
+  "code": "bs",
+  "name": "Bosnian",
+  "nativeName": "Bosanski",
+  "rtl": false,
+  "maintainers": [
+    "XoopsLanguages Team"
+  ],
+  "core": {
+    "2.3.1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/bosnian/releases/download/latest/bosnian-core-2.3.1.zip"
+    },
+    "2.3.3": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/bosnian/releases/download/latest/bosnian-core-2.3.3.zip"
+    },
+    "2.4.3": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/bosnian/releases/download/latest/bosnian-core-2.4.3.zip"
+    },
+    "2.4.5 beta": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/bosnian/releases/download/latest/bosnian-core-2.4.5 beta.zip"
+    },
+    "2.5.0": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/bosnian/releases/download/latest/bosnian-core-2.5.0.zip"
+    },
+    "2.7.0": {
+      "lifecycle": "active",
+      "coverage": 0.0,
+      "provided": 0,
+      "required": 3098,
+      "updated": "2026-05-04",
+      "download": "https://github.com/XoopsLanguages/bosnian/releases/download/latest/bosnian-core-2.7.0.zip",
+      "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/bosnian/master/manifest.json"
+    }
+  },
+  "modules": {},
+  "themes": {}
+}

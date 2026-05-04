@@ -11,7 +11,7 @@
  */
  
 /*
- * Assocated with editor_registry.php
+ * Associated with editor_registry.php
  */
 define("_XOOPS_EDITOR_TINYMCE","TinyMCE");
 define("_XOOPS_EDITOR_TINYMCE_LANGUAGE","ba");
