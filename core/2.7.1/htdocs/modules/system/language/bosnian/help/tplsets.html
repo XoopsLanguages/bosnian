@@ -1,0 +1,36 @@
+<div class="outer" id="help-template">
+<h1 class="head">Pomoć: Šabloni</h1>
+<h4 class="odd">Opis</h4>
+<p class="even">
+        XOOPS omogućava određeno razdvajanje između stvarne prezentacije stranice (“<em>skin</em>” ili korisničko sučelje) i kod koji se pokreće pozadi. Prvim se rukuje sofisticiranim mehanizmom zasnovanim na grafičkim temama. Tema može uključivati, u svom osnovnom obliku, osnovni HTML
+        šablone koji definišu vizuelni interfejs sajta, kao i stilove i slike potrebne za dopunu tog vizuelnog interfejsa. Teme se mogu mijenjati u administrativnom sučelju, tako da je promjena cjelokupnog izgleda XOOPS stranice samo pitanje promjene vrijednosti
+        selektora i klikom na “Prihvati”. XOOPS takođe pruža administratorima sajta mogućnost da dopuste korisnicima da biraju između nekih dostupnih tema.<br/><br/>
+
+        Uopšteno govoreći, a <strong><em>tema</em></strong> je vizuelni okvir visokog nivoa sajta: tema definiše, na primer, opšti izgled sajta; s druge strane, obično ne definira specifičnu distribuciju sadržaja unutar bloka. Ovim se bavi a
+        različit entitet koji se zove a <em><strong>set šablona</strong></em>. Set šablona<em> </em>je skup HTML šablona koji definiraju prezentaciju sadržaja unutar svih blokova koji čine XOOPS web stranicu. Ako želimo jasniju metaforu za ovo, mogli bismo reći da je tema kao
+        arhitekta kuće, dok je set šablona kao dekorater enterijera. Prvi postavlja zidove i definiše opštu distribuciju, ali drugi je zadužen za "<em>oblačenje</em>” te zidove.<br/><br/>
+
+        Ako je aktivna tema jednostavna koja uključuje samo fajl teme, CSS fajlove i neke slike, XOOPS koristi podrazumevani predložak za definisanje prezentacije blokova. Međutim, neke složene teme su dovoljno sofisticirane da uključuju vlastiti skup predložaka. U ovom slučaju, stranica
+        administrator mora koristiti administrativni interfejs da postavi i temu i set šablona. <br/><br/>
+
+        Kako je tema <em>magija</em> postignuto? Odnosno, kako HTML šabloni mogu uključivati ​​dinamički sadržaj? To se ne radi pomoću ogledala i dima, već pomoću pametnog šablona koji se zove
+        <strong><a href="https://www.smarty.net/" rel="external">Pametno</a></strong> koja čini funkciju onoga što se nekada zvalo
+        <em><strong>interpolacija varijable</strong></em>. Izraženo na jednostavan način, mogli bismo reći da XOOPS sistem koristi PHP fajlove za držanje logike modula (pristup bazi, dodela varijabli, upravljanje pravima...), HTML fajlove sa umetnutim Smarty varijablama za upravljanje
+        stvarni vizuelni interfejs i Smarty motor za umetanje vrednosti i nizova na određena mesta unutar HTML-a koji gradi stranice koje vidi krajnji korisnik. Sve u svemu, šta ovo znači za vas, može se lako sažeti: zahvaljujući svom sistemu tema, XOOPS dozvoljava dizajnerima sajtova da izgrade više
+        zanimljive i vizuelno zadivljujuće stranice bez mnogo brige o tome šta se dešava ispod haube.
+    </p>
+<h4 class="odd">Kloniranje i preuzimanje setova šablona</h4>
+<p class="even">
+        Ako želite kreirati prilagođeni set šablona, možete napraviti kopiju zadanog skupa (ili bilo kojeg drugog) odabirom '<em>klon</em>’ (od vas će biti zatraženo da novom skupu date ime). Za razliku od zadanog, drugi setovi šablona mogu se slobodno uređivati. Takođe možete sačuvati kopiju a
+        predložak postavljen na disk odabirom '<em>preuzimanje</em>’ link, ili ga uklonite pomoću ‘<em>izbrisati</em>’ link. Također možete ponekad vidjeti dodatni '<em>Generiraj</em>’ link pored novih modula za koje šabloni još nisu kreirani.
+    </p>
+<h4 class="odd">Uređivanje šablona</h4>
+<p class="even">
+        Možete vidjeti punu listu dostupnih šablona tako što ćete pregledati stablo direktorija. Kada odaberete predložak, XOOPS će ga otvoriti u uređivaču gdje ga možete uređivati. <br/><br/>
+
+        Prilikom uređivanja šablona morate omogućiti opciju koja automatski ažurira .tpl datoteke predložaka modula ako postoje novije datoteke u direktoriju tema/vaše teme/templates za trenutnu temu (Sistemski modul -&gt; Postavke -&gt; Opće postavke -&gt; Ažuriraj .tpl datoteke šablona modula
+        iz direktorija tema/vaše teme/šablona? -&gt; ‘<em>Da</em>’). Ovo bi trebalo biti isključeno kada stranica postane javna.<br/><br/>
+        Ako slučajno zabrljate šablon, nemojte zaboraviti da možete preuzeti "<em>dobro</em>’ kopirati iz zadanog skupa šablona. Ako radite sa nestandardnim predlošcima, možda bi bilo dobro da sačuvate kopiju na disk pre nego što počnete da ih menjate.
+
+    </p>
+</div>
